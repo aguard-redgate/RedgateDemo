@@ -13,7 +13,8 @@ AS
 BEGIN
     SELECT Address1,
            Address2,
-           Address3
+           Address3,
+           PhoneMobile
     FROM dbo.Contacts;
 END;
 GO
